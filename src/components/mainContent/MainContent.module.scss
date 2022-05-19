@@ -1,0 +1,86 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .content {
+        display: flex; 
+        height: 15rem;
+        background-image: url('../../assets/img/topStars.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 86%;
+        .text {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            h1 {
+                text-align: center;
+                // font-family: Poppins !important;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 70px;
+                line-height: 91%;
+                text-align: center;
+                letter-spacing: -0.015em;
+                margin: 0;
+                width: 350rem;
+            }
+            .bold {
+                width: 100%;
+                text-align: center;
+                // font-family: Poppins !important;
+                // font-style: bold;
+                font-weight: 700;
+                font-size: 70px;
+                line-height: 91%;
+                text-align: center;
+                letter-spacing: -0.015em;
+            }
+            p {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 29.4318px;
+                line-height: 111.5%;
+                text-align: center;
+                letter-spacing: -0.06em;
+                span {
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-device-width: 540px) {
+    .container {
+        .content {
+            height: 20vh;
+            .text {
+                h1 {
+                    font-size: 40px;
+                }
+                .bold {
+                    font-size: 40px;
+                }
+                .center  {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 100%;
+                    word-wrap: break-word;
+                    width: 75%;
+                    margin: 0.8rem 3rem;
+                p {
+                    font-size: 16px;
+    
+                    span {
+                        font-weight: bold;
+                    }
+                }
+                }
+            }
+        }
+    }
+}

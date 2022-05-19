@@ -1,0 +1,116 @@
+.container {
+    position: relative;
+    .rays{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        svg {
+            position: absolute;
+            top: -39rem;
+            width: 100%;
+            text-align: center;
+        }
+    }
+    .coins {
+        img {
+            position: absolute;
+            top: 10.4rem;
+            left: 40%;
+            width: 24rem;
+            height: auto;
+            text-align: center;
+    
+        }
+    }
+}
+
+@media screen and (max-device-width: 1440px){
+    .container {
+        .rays{
+            svg{
+                position: absolute;
+                top: -39rem;
+            } 
+        }
+        .coins {
+            img {
+                width: 20rem;
+                height: auto;
+                position: absolute;
+                left: 39%;
+                top: 11.4rem;
+            }
+        }
+    }
+  }
+@media screen and (max-device-width: 1024px){
+    .container {
+        .rays{
+            svg{
+                position: absolute;
+                top: -35rem;
+            } 
+        }
+        .coins {
+            img {
+                width: 18rem;
+                height: auto;
+                position: absolute;
+                left: 35%;
+                top: 12rem;
+            }
+        }
+    }
+  }
+
+@media screen and (max-device-width: 540px){
+    // .container {
+    //     position: relative;
+    //     .rays{
+    //         display: block;
+    //         justify-content: center;
+    //         align-items: center;
+    //         svg {
+    //             position: absolute;
+    //             top: -31rem;
+    //             width: 100%;
+    //             text-align: center;
+    //         }
+    //     }
+    //     .coins {
+    //         display: block;
+    //         justify-content: center;
+    //         align-items: center;
+    //         width: 100%;
+    //         img {
+    //             position: absolute;
+    //             top: 18.2rem;
+    //             left: 39.5%;
+               
+    //             height: auto;
+    //             // text-align: center;
+    //         }
+    //     }
+    // }
+}
+
+
+// .container {
+//     height: 40vmin;
+//     pointer-events: none;
+//   }
+  
+//   @media (prefers-reduced-motion: no-preference) {
+//     .container svg {
+//       animation: App-logo-spin infinite 20s linear;
+//     }
+//   }
+  
+//   @keyframes App-logo-spin {
+//     from {
+//       transform: rotate(0deg);
+//     }
+//     to {
+//       transform: rotate(45deg);
+//     }
+//   }
