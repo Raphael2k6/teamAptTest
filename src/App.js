@@ -42,7 +42,7 @@ function App() {
     setTimeout(() => {
       timeline.pause();
     }, 4900);
-  }, [])
+  }, [timeline])
 
   return (
     <>
