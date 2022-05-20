@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './MainContent.module.scss';
-import Icon from '../../assets/icon';
 import { isMobile } from 'react-device-detect';
 
 const MainContent = () => {
