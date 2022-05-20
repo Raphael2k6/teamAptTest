@@ -7,15 +7,15 @@
         svg {
             position: absolute;
             top: -39rem;
-            width: 100%;
+            // width: 100%;
             text-align: center;
         }
     }
     .coins {
         img {
             position: absolute;
-            top: 10.4rem;
-            left: 40%;
+            top: 13rem;
+            left: 39%;
             width: 24rem;
             height: auto;
             text-align: center;
@@ -29,7 +29,7 @@
         .rays{
             svg{
                 position: absolute;
-                top: -39rem;
+                top: -42rem;
             } 
         }
         .coins {
@@ -38,7 +38,7 @@
                 height: auto;
                 position: absolute;
                 left: 39%;
-                top: 11.4rem;
+                top: 8.7rem;
             }
         }
     }
@@ -48,50 +48,37 @@
         .rays{
             svg{
                 position: absolute;
-                top: -35rem;
+                top: -42rem;
+                width: 64rem;
             } 
         }
         .coins {
             img {
-                width: 18rem;
+                width: 33rem;
                 height: auto;
                 position: absolute;
-                left: 35%;
-                top: 12rem;
+                left: 24%;
+                top: 5rem;
             }
         }
     }
   }
 
 @media screen and (max-device-width: 540px){
-    // .container {
-    //     position: relative;
-    //     .rays{
-    //         display: block;
-    //         justify-content: center;
-    //         align-items: center;
-    //         svg {
-    //             position: absolute;
-    //             top: -31rem;
-    //             width: 100%;
-    //             text-align: center;
-    //         }
-    //     }
-    //     .coins {
-    //         display: block;
-    //         justify-content: center;
-    //         align-items: center;
-    //         width: 100%;
-    //         img {
-    //             position: absolute;
-    //             top: 18.2rem;
-    //             left: 39.5%;
-               
-    //             height: auto;
-    //             // text-align: center;
-    //         }
-    //     }
-    // }
+    .container {
+        .rays{
+            svg{
+                position: absolute;
+                width: 10rem;
+            } 
+        }
+        .coins {
+            img {
+                left: 16%;
+                top: 13rem;
+            }
+        }
+    }
 }
 
 
