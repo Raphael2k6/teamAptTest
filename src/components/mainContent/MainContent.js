@@ -24,18 +24,4 @@ const MainContent = () => {
     )
 }
 
-export default MainContent
-
-
-// position: absolute;
-//     top: 10.4rem;
-//     left: 38%;
-//     width: 24rem;
-//     height: auto;
-//     text-align: center;
-// }
-
-// position: absolute;
-//     top: -39rem;
-//     width: 100%;
-//     text-align: center;
+export default MainContent;
